@@ -1,0 +1,103 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: #645f5f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image:url(https://www.publicdomainpictures.net/pictures/200000/velka/plain-black-background.jpg) 
+}
+
+
+.carousel{
+  width: 52%;
+  margin: 85px auto 100px auto;
+  height: 55px;
+  box-shadow: 1px 4px 3px 4px rgb(0, 0, 0);
+  border-radius: 20%;
+  background-color: #585858;
+
+}
+.separator{
+  height: 0px;
+  margin: 65px auto;
+}
+.conteudo{
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 85px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color:rgb(245, 157, 157);
+}
+.card >img{
+  border-radius: 20%;
+  height: 570px;
+  
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
